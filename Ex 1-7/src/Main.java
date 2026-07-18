@@ -52,5 +52,23 @@ public class Main {
         Average ex1 = new Average(10.5, 4.5, 8.55);
         System.out.println("The average of your numbers is: " + ex1.GetAverage());
 
+
+        // Ex7
+        System.out.println("Ex 7: ");
+        Employee Robert = new Employee("Robert", 1994, 40000, "64C- WallsStreat");
+        Employee Samm = new Employee("Sam ", 2000, 34000, "68D- WallsStreat");
+        Employee Johnn = new Employee("John", 1999, 40000, "26B- WallsStreat");
+
+        Employee[] employees = {Robert, Samm, Johnn};
+        String[] headers = {"Name", "Year of joining", "Salary", "Address"};
+        String[][] data = {
+                {employees[0].name + "     ", employees[0].joiningYear + "        ", employees[0].salary + "   ", employees[0].address},
+                {employees[1].name + "       ", employees[1].joiningYear + "        ", employees[1].salary + "   ", employees[1].address},
+                {employees[2].name + "       ", employees[2].joiningYear + "        ", employees[2].salary + "   ", employees[2].address}
+        };
+        System.out.println(headers[0] + "     " + headers[1] + "     " + headers[2] + "         " + headers[3]);
+        for (String[] row : data) {
+            System.out.println(row[0] + "   " + row[1] + "   " + row[2] + "   " + row[3]);
+        }
     }
 }
