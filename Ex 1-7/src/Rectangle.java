@@ -1,6 +1,6 @@
 public class Rectangle {
-    public int height;
-    public int width;
+    int height;
+    int width;
 
     public Rectangle(){}
 

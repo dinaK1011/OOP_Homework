@@ -1,7 +1,7 @@
 public class Average {
-    public double num1;
-    public double num2;
-    public double num3;
+    double num1;
+    double num2;
+    double num3;
 
     public Average(){}
 

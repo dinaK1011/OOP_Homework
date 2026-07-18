@@ -1,8 +1,8 @@
 public class Employee {
-    public String name;
-    public int joiningYear;
-    public int salary;
-    public String address;
+    String name;
+    int joiningYear;
+    int salary;
+    String address;
 
     public Employee(){}
 

@@ -1,7 +1,7 @@
 public class NumberHolder  {
 
-    public int intNumber;
-    public float floatNumber;
+    int intNumber;
+    float floatNumber;
 
     public NumberHolder(){}
 

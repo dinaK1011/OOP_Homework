@@ -1,8 +1,8 @@
 public class Student {
-    public String name;
-    public String address;
-    public long phoneNum;
-    public int roll_no;
+    String name;
+    String address;
+    long phoneNum;
+    int roll_no;
 
     public Student(){}
 
