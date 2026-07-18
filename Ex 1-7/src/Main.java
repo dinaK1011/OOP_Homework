@@ -44,10 +44,13 @@ public class Main {
         // Ex5
         System.out.println("Ex 5: ");
         Rectangle myRect = new Rectangle(6,7);
-        System.out.print("The height of the rectangle is: " + myRect.height + " ,and the width is: "
+        System.out.println("The height of the rectangle is: " + myRect.height + " ,and the width is: "
         + myRect.width +  " ,so the area of your rectangle is: " + myRect.getArea());
 
-
+        // Ex6
+        System.out.println("Ex 6: ");
+        Average ex1 = new Average(10.5, 4.5, 8.55);
+        System.out.println("The average of your numbers is: " + ex1.GetAverage());
 
     }
 }
