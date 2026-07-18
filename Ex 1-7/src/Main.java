@@ -33,6 +33,13 @@ public class Main {
         NumberHolder num2 = new NumberHolder(12);
         num2.printNumberHolder();
 
+        // Ex4
+        System.out.println("Ex 4: ");
+        Student Sam = new Student("Sam", "Jerusalem", 4584666, 11);
+        Student John = new Student("John", "Tel Aviv", 4566966, 12);
+
+        Sam.printStudentInfo();
+        John.printStudentInfo();
 
     }
 }
